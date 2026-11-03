@@ -1,32 +1,42 @@
-# `.github` — Perfil público de la organización
+# .github
 
-Repositorio **público** que alimenta el Overview de
-[KPMG-MicrosoftSecurityTeam](https://github.com/KPMG-MicrosoftSecurityTeam).
+Repositorio de configuración de la organización **KPMG-MicrosoftSecurityTeam** en GitHub.
 
-| Ruta | Uso |
+Contiene el perfil público que se muestra en la pestaña *Overview* de
+[github.com/KPMG-MicrosoftSecurityTeam](https://github.com/KPMG-MicrosoftSecurityTeam)
+y los recursos gráficos asociados.
+
+## Sobre el equipo
+
+La organización agrupa el trabajo técnico del equipo Microsoft de KPMG. El equipo está especializado
+en seguridad, gobierno y cumplimiento sobre el ecosistema Microsoft: Microsoft 365,
+Microsoft Entra, Microsoft Purview, Microsoft Defender, Power Platform y Azure.
+
+## Estructura del repositorio
+
+| Ruta | Descripción |
 | :--- | :--- |
-| [`profile/README.md`](./profile/README.md) | Texto que se muestra en la pestaña **Overview** de la org |
-| `profile/assets/` *(opcional)* | Imágenes públicas (banner, logo) referenciadas desde el perfil |
+| `profile/README.md` | Contenido de la página *Overview* de la organización, visible para cualquier visitante. |
+| `profile/assets/` | Logotipo, banner y otros recursos gráficos utilizados en el perfil. |
+| `README.md` | Este documento. Describe el propósito del repositorio y su mantenimiento. |
 
-## Reglas de contenido
+## Mantenimiento del perfil
 
-Este perfil es visible en Internet. **No** commits con:
+1. Modificar `profile/README.md`. Las secciones editables están señaladas con comentarios `<!-- [EDITAR] -->`.
+2. Abrir una *pull request* contra `main` para su revisión.
+3. Una vez aprobada y fusionada, comprobar el resultado en
+   [github.com/KPMG-MicrosoftSecurityTeam](https://github.com/KPMG-MicrosoftSecurityTeam).
 
-- Información de clientes, proyectos o contratos
-- Enlaces a SharePoint / Confluence / Teams internos
-- Secretos, diagramas de arquitectura interna o inventarios
-- Datos personales de empleados más allá de lo estrictamente público
+## Criterios de contenido
 
-## Cómo editar el perfil
+El perfil es accesible públicamente. Su contenido debe limitarse a información
+institucional del equipo. No se incluirán referencias a clientes, proyectos,
+documentación interna, credenciales ni datos personales.
 
-1. Edita `profile/README.md` (busca los comentarios `<!-- [EDITAR] ... -->`).
-2. Haz commit en `main`.
-3. Revisa el resultado en `https://github.com/KPMG-MicrosoftSecurityTeam`.
+## Perfil para miembros
 
-## Perfil solo para miembros (opcional)
+La organización dispone también de una vista reservada a miembros autenticados,
+gestionada desde el repositorio privado `.github-private` (`profile/README.md`).
+GitHub muestra automáticamente una u otra vista según quién acceda.
 
-Si más adelante necesitáis un Overview distinto para miembros autenticados,
-cread un repo **privado** llamado `.github-private` con `profile/README.md`.
-Eso no sustituye este perfil público: GitHub muestra ambas vistas según el visitante.
-
-Más info: [Customizing your organization's profile](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/customizing-your-organizations-profile).
+Referencia: [Customizing your organization's profile](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/customizing-your-organizations-profile)
