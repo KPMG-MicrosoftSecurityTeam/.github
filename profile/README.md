@@ -16,6 +16,7 @@
 
 <!-- [EDITAR] Sustituye por una imagen pública (logo del equipo) alojada en este repo, p. ej. profile/assets/banner.png -->
 <!-- <img src="assets/banner.png" alt="KPMG Microsoft Internal Team" width="720" /> -->
+# PLACEHOLDER
 
 # KPMG · Microsoft Internal Team
 
